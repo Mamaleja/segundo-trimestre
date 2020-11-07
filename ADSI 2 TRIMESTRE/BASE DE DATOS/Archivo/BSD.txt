@@ -1,0 +1,31 @@
+CREATE TABLE `bdtienda`.`cliente` ( 
+	`codCliente` INT NOT NULL , 
+	`nombreCliente` VARCHAR(80) NOT NULL , 
+	`edad` INT NOT NULL , 
+	`fecNac` DATE NOT NULL , 
+	`direccion` VARCHAR(50) NOT NULL , 
+	`telefono` VARCHAR(10) NOT NULL , 
+	`celular` VARCHAR(13) NOT NULL , 
+	`correoElectronico` VARCHAR(30) NOT NULL , 
+	`codZona` INT NOT NULL , 
+	PRIMARY KEY (`codCliente`)) 
+	ENGINE = InnoDB CHARSET=utf8 COLLATE utf8_spanish2_ci;
+
+CREATE TABLE `bdtienda`.`articulos` ( 
+`codArticulo` INT NOT NULL , 
+`nombreArticulo` VARCHAR(30) NOT NULL , 
+`pvp` INT NOT NULL , PRIMARY KEY (`codArticulo`))
+ ENGINE = InnoDB CHARSET=utf8mb4 COLLATE utf8mb4_spanish2_ci;
+
+CREATE TABLE `bdtienda`.`pedidos` ( 
+`codPedido` INT NOT NULL ,AUTO_INCREMENT,
+`unidades` INT NOT NULL ,
+ `fechaPedido` DATE NOT NULL , 
+`codCliente` INT NOT NULL ,
+ `codArticulo` INT NOT NULL ) ENGINE = InnoDB CHARSET=utf8mb4 COLLATE utf8mb4_spanish2_ci;
+
+CREATE TABLE `bdtienda`.`zonas` (
+ `CodZonas` INT NOT NULL , 
+`barrio` VARCHAR(30) NOT NULL ,
+ PRIMARY KEY (`CodZonas`)) ENGINE = InnoDB CHARSET=utf8mb4 COLLATE utf8mb4_spanish2_ci;
+

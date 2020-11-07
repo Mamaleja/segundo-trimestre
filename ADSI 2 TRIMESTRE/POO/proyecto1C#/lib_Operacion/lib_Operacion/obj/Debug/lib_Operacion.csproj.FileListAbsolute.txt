@@ -1,0 +1,6 @@
+C:\ADSI\ADSI 2 TRIMESTRE\POO\proyecto1C#\lib_Operacion\lib_Operacion\bin\Debug\lib_Operacion.dll
+C:\ADSI\ADSI 2 TRIMESTRE\POO\proyecto1C#\lib_Operacion\lib_Operacion\bin\Debug\lib_Operacion.pdb
+C:\ADSI\ADSI 2 TRIMESTRE\POO\proyecto1C#\lib_Operacion\lib_Operacion\obj\Debug\lib_Operacion.csprojAssemblyReference.cache
+C:\ADSI\ADSI 2 TRIMESTRE\POO\proyecto1C#\lib_Operacion\lib_Operacion\obj\Debug\lib_Operacion.csproj.CoreCompileInputs.cache
+C:\ADSI\ADSI 2 TRIMESTRE\POO\proyecto1C#\lib_Operacion\lib_Operacion\obj\Debug\lib_Operacion.dll
+C:\ADSI\ADSI 2 TRIMESTRE\POO\proyecto1C#\lib_Operacion\lib_Operacion\obj\Debug\lib_Operacion.pdb

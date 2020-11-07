@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+ 
+<body>
+    <form>
+        <lavel for="nombre">Ingresa Tu Nombre: <br>
+        <input type="text" placeholder="ingresa  nombre" required title="debes ingresar tu nombre">
+        </lavel><br><br>
+        <lavel for="apellido">Ingresa Tu Apellido:  <br>
+        <input type="text" placeholder="ingrese apellido" required>
+        </lavel><br><br>
+        <lavel for="documento">Ingresa Tu Documento:  <br>
+        <input type="text" placeholder="ingresa documento">
+        <br><br></lavel>
+        <lavel for="correo">Ingresa Tu Correo:  <br>
+        <input type="email" placeholder="ingrese correo" required title="debes ingresar correo">
+        <br><br></lavel>
+        <lavel for="Contraseña">Ingresa Tu Contraseña:  <br>
+        <input type="password" placeholder="ingresa contraseña" min="3" max="10" required>
+        <br><br></lavel>
+        <lavel for="genero">Ingresa Tu Genero:  <br>
+        <input type="radio" name="sexo">Hombre
+        <input type="radio" name="sexo">Mujer
+        <input type="radio" name="sexo">Otro
+        </lavel><br><br>
+        <lavel for="dep">Ingresa Tu Departamento:  <br>
+        <select name="Departamento">
+        <optgroup name="dep">
+            <option value="Bienestar">Bienestar</option>
+            <option value="Musica">Musica</option>
+            <option value="Artes">Artes</option>
+        </optgroup>
+        <br><br></lavel>
+        
+    </select>
+    <br><br>
+    <lavel for="Archivo">Subir Archivo:  <br>
+        <label for="Archivo">   
+            <input type="file">
+        </label>
+        <br><br>
+        <input type="submit" value="Enviar formulario">
+    </form>
+</body>
+</html>
